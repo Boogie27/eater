@@ -1,0 +1,154 @@
+
+/*------------------------------------------*/
+/*          RESPONSIVENESS SECTION          */
+/*------------------------------------------*/
+
+/* larger screen size: 1021 to 1200 */
+@media only screen and (max-width: 1200px){
+    header{height: 600px; }
+}
+
+
+/* for small tabele to big tablet: 768 to 1020 */
+@media only screen and (max-width: 1020px){
+    body{ font-size: 18px; }
+    header{height: 600px; }
+    .sticky .nav-items a{   margin-left: 20px; padding-bottom: 20px;}
+    .item-food img{ height: 150px;}
+    .section-meals{ width: 90%; margin-left: 5%; }
+    .item{ bottom: 50px; }
+    .steps-container .steps-items{  margin-top: 7%; }
+    .steps-container .steps-image img{ width: 75%; height: 350px; }
+    .how-it-works h2:after{ width: 100px; }
+    .meal-plan h2:after{ width: 100px; }
+    .city-section .container{ max-width: 100%;}
+    .cities img{ width: 100%; }
+    .plan-form{ width: 105%; padding: 0px; margin: 0; }
+    .contact-header h2:after{ width: 100px; }
+    .contact img{ height: 500px; width: 400px; }
+    .contact form{  width: 100%; margin-left: 0; }
+    .testimonial-head h2:after{  width: 100px; }
+    .section-meals{ width: 100%;  margin-left: 0%; }
+    .sticky .nav-items a{ font-size: 80%;  margin-right: 10px; }
+}
+
+
+/* for small phones to small tablet: 576 to 767 */
+@media only screen and (max-width: 767px){
+    html{ font-size: 16px; } 
+    section .item-thumb h2{ font-size: 120%; }
+    section .item-thumb h2:after{ width: 100px; }  
+    .item-thumb p{ width: 100%; margin: 0;}
+    .navigation .nav-items a{ margin-left: 10px;}
+    .box-item{ width: 100%; }
+    .item-food{ border: none; margin-top: 30px;}
+    .item-food img{ height: 300px;}
+    .section-meals{ margin-top: 50px;}
+    .kitchen .item{ margin-top: 50px; }
+    .food-items{ margin-top: 50px; }
+    .food-items p{ text-align: left; }
+    .steps-container .steps-image img{ width: 500px;  margin-right: 10%; height: 550px }
+    .steps-items .steps{ padding: 5px; }
+    .steps-items .steps p{ padding-top: 10px; }
+    .how-it-works .steps-links{ margin-top: 5%; }
+    .city h2{ font-size: 145%;}
+    .cities{ margin-top: 40px; }
+    .meal-plan h2{ font-size: 150%; }
+    .plan-form{ width: 70%; margin-left: 15%; margin-bottom: 40px;}
+    .plan-form ul li{ padding: 10px 0px; font-size: 100%; }
+    .plan-form div{  padding: 5px;}
+    .plan-form .meail-price{ font-size: 100%; }    
+    .plan-form .price{ font-size: 350%; }
+    .meal-plan .container{ max-width: 100%; }
+    .plan-form #btn{ padding-top: 15px; }
+    /* .contact .contact-img{ margin-left: 10%; } */
+    .contact form{ margin-top: 50px; }
+    .footer .container{ max-width: 100%; }
+    ul.footer-links li, 
+    ul.social-links li{ margin-left: 5px; }
+    
+}
+
+/* for small phones: 378 to 575*/
+@media only screen and (max-width: 575px){
+    .sticky{padding: 10px 10px;}
+    .sticky .nav-items a{ font-size: 70%;  margin-right: 0px; }
+    header{  height: 500px; } 
+    .navigation .nav-items{ margin-top: 15px; }
+    .navigation .nav-items a{ margin-left: 10px; padding: 15px 5px; font-size: 70%; }
+    .navigation .logo-image .logo{ width: 50px; height: 50px}
+    section .item-thumb{ padding: 50px 0; }
+    section .item-thumb p{ font-size: 80%; }
+    html , body{ font-size: 16px; } 
+    .item-food{ border: none; margin-top: 30px;}
+    .item-food img{ height: 250px;}
+    .feauture{ padding: 5%;  margin-bottom: 0; }
+    .feauture .box-item h3{ text-align: center; }
+    .section-meals{ padding-top: 0px; padding-bottom: 0px; }
+    .hero-text-box .text-box-content{ top: 100px; }
+    .item .food-items{ padding: 10%; }
+    .kitchen img.jumbo{ display: none; }
+    .item{  width: 100%; margin-left: 0; }
+    .food-items img{ border-radius: 0; width: 100%; height: 300px; border: 1px solid transparent; margin-bottom: 30px;}
+    .food-items li{ width: 100%; background-color: #e67e22; padding: 10px;}
+    .food-items li .buttn-exp{ padding: 5px 40% 10px 40%; border-radius: 0;  transition: none; border: none; background-color: transparent; color: #fff;}
+    .food-items li .buttn-exp:hover{background-color: transparent;}
+    .meal-plan .container{ max-width: 100%; }
+    .show-case{ display: none; }
+    .how-it-works{ padding: 10px; }
+    .how-it-works h2{ font-size: 140%; }
+    .steps-container .steps-image img{ width: 90%; height: 400px; margin-right: 0px; }
+    .steps-container .steps-image{ text-align: center; }
+    .steps-items .steps div{ padding-top: 0px; width: 40px; height: 40px; } 
+    .steps-items .steps p{ padding-top: 0px;} 
+    .steps-links {text-align: center; }
+    .cities img{ width: 100%;  height: 300px; }
+    .city-feautures{ font-size: 100%; }
+    .contact-img img{  width: 100%; height: 100%; }
+    .contact label{ font-size: 100%; font-weight: 600; }
+    .plan-form{ width: 90%; margin-left: 5%; }
+    ul.footer-links{text-align: center;}
+    ul.footer-links li{padding: 0px 15px; }
+    ul.social-links{text-align: center}
+    ul.social-links li{ float: none; }
+}
+
+
+@media only screen and (max-width: 377px){
+    header{ height: 400px;}
+    .navigation .nav-items{ margin-top: 12px; }
+    .navigation .nav-items a{ margin-left: 0px; padding: 15px 5px; font-size: 60%; }
+    .navigation .logo-image{ margin-top: 5px; }
+    .navigation .logo-image .logo{ width: 50px; height: 50px}
+    .sticky{padding: 5px 10px;}
+    .feauture .item-thumb{ padding: 0px 0; padding-top: 50px;}
+    .text-box-content h1{ font-size: 150%; }
+    .food-items img{ height: 250px; }
+    .hero-text-box .button:link,
+    .hero-text-box .button:visited{ padding: 3px 10px 5px 10px;  margin-right: 0px; }
+    .meal-plan h2{ font-size: 120%; }
+    .meal-plan h2:after{ margin-bottom: 20px; width: 50px;}
+    .show-city .cities img{ height: 250px; }
+    .feauture .item-thumb h2:after, .testimonial-head h2:after, .city h2:after,  .how-it-works h2:after, .contact-header h2:after { width: 50px;  margin-top: 20px;}
+    section .item-thumb{ padding: 0px 0; }
+    .contact-img .contact-image{  height: 350px;}
+    .steps-container .steps-image img{ height: 350px; }
+    .steps-items .steps div{ border: 1px solid #e67e22;  width: 30px;  height: 30px;  text-align: center;  font-size: 100%;  margin-right: 5px; padding-top: 2px;}
+    .steps-items .steps p{  color: #555; font-size: 80%;  padding-top: 2px;  }
+    .how-it-works .steps-links img{ height: 80%; }
+    .how-it-works .steps-links{ text-align: center; }
+    .show-city{ margin-top: 0px; }
+    .testimonial{ }
+    .testimonial-head{  width: 100%; margin-left: 0%; margin-bottom: 30px; padding-top: 20px; }
+    .testimonial-head h2{ font-size: 150%; }
+    .meal-plan{ padding-bottom: 0px;  padding-top: 20px; }
+    .contact{ padding-top: 10px; padding-bottom: 0px;  }
+    .contact-header h2{ font-size: 150%; }
+    .contact-header h2:after{ margin-top: 10px; }
+    .contact-img img{  width: 100%; height: 400px; }
+    .footer{ padding: 5px; }
+    ul.footer-links li{ padding: 0px 5px; }
+}
+
+
+
