@@ -4,7 +4,10 @@
 *{
     padding: 0px;
     margin: 0px;
+}
 
+body{
+    overflow: hidden;
 }
 
 html{
@@ -241,6 +244,7 @@ section .item-thumb h2{
     margin-left: 0%;
     padding-top: 40px;
     padding-bottom: 40px;
+    overflow: hidden;   /*crrect*/
 }
 
 .kitchen{
@@ -351,6 +355,7 @@ section .item-thumb h2{
 
 .steps-container{
     background-color: #f4f4f4;
+    overflow: hidden;/*correct*/
 }
 
 .how-it-works{
